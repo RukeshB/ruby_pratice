@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>class Game - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+  var index_rel_prefix = "./";
+</script>
+
+<script src="./js/navigation.js" defer></script>
+<script src="./js/search.js" defer></script>
+<script src="./js/search_index.js" defer></script>
+<script src="./js/searcher.js" defer></script>
+<script src="./js/darkfish.js" defer></script>
+
+<link href="./css/fonts.css" rel="stylesheet">
+<link href="./css/rdoc.css" rel="stylesheet">
+
+
+<body id="top" role="document" class="class">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="./index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="./table_of_contents.html#pages">Pages</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="class-metadata">
+    
+    
+<div id="parent-class-section" class="nav-section">
+  <h3>Parent</h3>
+
+  <p class="link">Object
+</div>
+
+    
+    
+    
+<!-- Method Quickref -->
+<div id="method-list-section" class="nav-section">
+  <h3>Methods</h3>
+
+  <ul class="link-list" role="directory">
+    <li ><a href="#method-c-new">::new</a>
+    <li ><a href="#method-i-calculate_score">#calculate_score</a>
+    <li ><a href="#method-i-check_patterns">#check_patterns</a>
+    <li ><a href="#method-i-play">#play</a>
+    <li ><a href="#method-i-select_winner">#select_winner</a>
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-labelledby="class-Game">
+  <h1 id="class-Game" class="class">
+    class Game
+  </h1>
+
+  <section class="description">
+    
+  </section>
+
+  <section id="5Buntitled-5D" class="documentation-section">
+
+
+
+    <section class="attribute-method-details" class="method-section">
+      <header>
+        <h3>Attributes</h3>
+      </header>
+
+      <div id="attribute-i-card" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">card</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        </div>
+      </div>
+      <div id="attribute-i-card_per_player" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">card_per_player</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        </div>
+      </div>
+      <div id="attribute-i-player" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">player</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        </div>
+      </div>
+      <div id="attribute-i-total_player" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">total_player</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        </div>
+      </div>
+    </section>
+
+
+     <section id="public-class-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Class Methods</h3>
+       </header>
+
+      <div id="method-c-new" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">new</span><span
+            class="method-args">(card, player, card_per_player = 3, total_player = 3)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          
+
+          <div class="method-source-code" id="new-source">
+            <pre><span class="ruby-comment"># File task_1_card_game.rb, line 19</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">initialize</span>(<span class="ruby-identifier">card</span>, <span class="ruby-identifier">player</span>, <span class="ruby-identifier">card_per_player</span> = <span class="ruby-value">3</span>, <span class="ruby-identifier">total_player</span> = <span class="ruby-value">3</span>)
+  <span class="ruby-ivar">@card</span> = <span class="ruby-identifier">card</span>
+  <span class="ruby-ivar">@player</span> = <span class="ruby-identifier">player</span>
+  <span class="ruby-ivar">@total_player</span> = <span class="ruby-identifier">total_player</span>
+  <span class="ruby-ivar">@card_per_player</span> = <span class="ruby-identifier">card_per_player</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Instance Methods</h3>
+       </header>
+
+      <div id="method-i-calculate_score" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">calculate_score</span><span
+            class="method-args">(patterns_point, selected_cards)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          <p>function to calculate total score of a player</p>
+
+          <div class="method-source-code" id="calculate_score-source">
+            <pre><span class="ruby-comment"># File task_1_card_game.rb, line 64</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">calculate_score</span>(<span class="ruby-identifier">patterns_point</span>, <span class="ruby-identifier">selected_cards</span>)
+  <span class="ruby-identifier">card_point</span> = <span class="ruby-value">0</span>
+  <span class="ruby-identifier">selected_cards</span>.<span class="ruby-identifier">map</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">card</span><span class="ruby-operator">|</span> <span class="ruby-identifier">card_point</span> <span class="ruby-operator">+=</span> <span class="ruby-identifier">card</span>[<span class="ruby-value">:card_value</span>] }
+
+  <span class="ruby-identifier">card_point</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">patterns_point</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-i-check_patterns" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">check_patterns</span><span
+            class="method-args">(selected_cards)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          <p>function to check the patterns of a card</p>
+
+          <div class="method-source-code" id="check_patterns-source">
+            <pre><span class="ruby-comment"># File task_1_card_game.rb, line 91</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">check_patterns</span>(<span class="ruby-identifier">selected_cards</span>)
+
+  <span class="ruby-identifier">same_card</span>, <span class="ruby-identifier">same_color</span>, <span class="ruby-identifier">same_type</span>, <span class="ruby-identifier">sequence</span> = <span class="ruby-value">0</span>, <span class="ruby-value">0</span>, <span class="ruby-value">0</span>, <span class="ruby-value">0</span>
+
+  <span class="ruby-identifier">cards_value</span> = <span class="ruby-identifier">selected_cards</span>.<span class="ruby-identifier">map</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">element</span><span class="ruby-operator">|</span> <span class="ruby-identifier">element</span>[<span class="ruby-value">:card_value</span>] }.<span class="ruby-identifier">sort</span>
+
+  <span class="ruby-ivar">@card_per_player</span>.<span class="ruby-identifier">times</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">index_1</span><span class="ruby-operator">|</span>
+
+    <span class="ruby-ivar">@card_per_player</span>.<span class="ruby-identifier">times</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">index_2</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">same_card</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span> <span class="ruby-keyword">if</span> (<span class="ruby-identifier">selected_cards</span>[<span class="ruby-identifier">index_1</span>][<span class="ruby-value">:card</span>] <span class="ruby-operator">==</span> <span class="ruby-identifier">selected_cards</span>[<span class="ruby-identifier">index_2</span>][<span class="ruby-value">:card</span>])
+      <span class="ruby-identifier">same_color</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span> <span class="ruby-keyword">if</span> (<span class="ruby-identifier">selected_cards</span>[<span class="ruby-identifier">index_1</span>][<span class="ruby-value">:color</span>] <span class="ruby-operator">==</span> <span class="ruby-identifier">selected_cards</span>[<span class="ruby-identifier">index_2</span>][<span class="ruby-value">:color</span>])
+      <span class="ruby-identifier">same_type</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span> <span class="ruby-keyword">if</span> (<span class="ruby-identifier">selected_cards</span>[<span class="ruby-identifier">index_1</span>][<span class="ruby-value">:card_types</span>] <span class="ruby-operator">==</span> <span class="ruby-identifier">selected_cards</span>[<span class="ruby-identifier">index_2</span>][<span class="ruby-value">:card_types</span>])
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-keyword">if</span> (<span class="ruby-identifier">index_1</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span>) <span class="ruby-operator">&lt;</span> <span class="ruby-ivar">@card_per_player</span> <span class="ruby-comment"># to make sure don&#39;t overflow</span>
+      <span class="ruby-keyword">if</span> <span class="ruby-identifier">cards_value</span>[<span class="ruby-identifier">index_1</span>] <span class="ruby-operator">==</span> <span class="ruby-value">14</span>  <span class="ruby-comment">#when player have ace</span>
+        <span class="ruby-keyword">if</span> (<span class="ruby-value">14</span> <span class="ruby-operator">-</span> <span class="ruby-identifier">cards_value</span>[<span class="ruby-identifier">index_1</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span>]).<span class="ruby-identifier">abs</span> <span class="ruby-operator">==</span> <span class="ruby-value">1</span> <span class="ruby-operator">||</span> (<span class="ruby-value">1</span> <span class="ruby-operator">-</span> <span class="ruby-identifier">cards_value</span>[<span class="ruby-identifier">index_1</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span>]).<span class="ruby-identifier">abs</span> <span class="ruby-operator">==</span> <span class="ruby-value">1</span>
+          <span class="ruby-identifier">sequence</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+        <span class="ruby-keyword">end</span>
+      <span class="ruby-keyword">elsif</span> <span class="ruby-identifier">cards_value</span>[<span class="ruby-identifier">index_1</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span>] <span class="ruby-operator">==</span> <span class="ruby-value">14</span>  <span class="ruby-comment">#when player have ace</span>
+        <span class="ruby-keyword">if</span> (<span class="ruby-identifier">cards_value</span>[<span class="ruby-identifier">index_1</span>] <span class="ruby-operator">-</span> <span class="ruby-value">14</span>).<span class="ruby-identifier">abs</span> <span class="ruby-operator">==</span> <span class="ruby-value">1</span> <span class="ruby-operator">||</span> (<span class="ruby-identifier">cards_value</span>[<span class="ruby-identifier">index_1</span>] <span class="ruby-operator">-</span> <span class="ruby-value">1</span>).<span class="ruby-identifier">abs</span> <span class="ruby-operator">==</span> <span class="ruby-value">1</span>
+          <span class="ruby-identifier">sequence</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+        <span class="ruby-keyword">end</span>
+      <span class="ruby-keyword">else</span>  <span class="ruby-comment"># when player don&#39;t have ace</span>
+        <span class="ruby-keyword">if</span> (<span class="ruby-identifier">cards_value</span>[<span class="ruby-identifier">index_1</span>] <span class="ruby-operator">-</span> <span class="ruby-identifier">cards_value</span>[<span class="ruby-identifier">index_1</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span>]).<span class="ruby-identifier">abs</span> <span class="ruby-operator">==</span> <span class="ruby-value">1</span>
+          <span class="ruby-identifier">sequence</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+        <span class="ruby-keyword">end</span>
+      <span class="ruby-keyword">end</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-comment"># assign a point base on card patterns</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">same_card</span> <span class="ruby-operator">==</span> <span class="ruby-value">3</span>
+      <span class="ruby-keyword">return</span> <span class="ruby-value">1000</span>
+    <span class="ruby-keyword">elsif</span> <span class="ruby-identifier">sequence</span> <span class="ruby-operator">==</span> <span class="ruby-value">2</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">same_type</span> <span class="ruby-operator">==</span> <span class="ruby-value">3</span>
+      <span class="ruby-keyword">return</span> <span class="ruby-value">900</span>
+    <span class="ruby-keyword">elsif</span> <span class="ruby-identifier">sequence</span> <span class="ruby-operator">==</span> <span class="ruby-value">2</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">index_1</span> <span class="ruby-operator">==</span> <span class="ruby-ivar">@card_per_player</span>
+      <span class="ruby-keyword">return</span> <span class="ruby-value">700</span>
+    <span class="ruby-keyword">elsif</span> <span class="ruby-identifier">same_color</span> <span class="ruby-operator">==</span> <span class="ruby-value">3</span>
+      <span class="ruby-keyword">return</span> <span class="ruby-value">500</span>
+    <span class="ruby-keyword">elsif</span> <span class="ruby-identifier">same_card</span> <span class="ruby-operator">==</span> <span class="ruby-value">2</span>
+      <span class="ruby-keyword">return</span> <span class="ruby-value">100</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">same_card</span>, <span class="ruby-identifier">same_type</span>, <span class="ruby-identifier">same_color</span> = <span class="ruby-value">0</span>, <span class="ruby-value">0</span>, <span class="ruby-value">0</span>
+  <span class="ruby-keyword">end</span>
+
+   <span class="ruby-value">0</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-i-play" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">play</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          <p>main function</p>
+
+          <div class="method-source-code" id="play-source">
+            <pre><span class="ruby-comment"># File task_1_card_game.rb, line 27</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">play</span>
+  <span class="ruby-identifier">taken_card</span> = []
+  <span class="ruby-identifier">scores</span> = []
+  <span class="ruby-identifier">highest_card</span> = []
+  <span class="ruby-identifier">high_card</span> = <span class="ruby-value">0</span>
+
+  <span class="ruby-ivar">@total_player</span>.<span class="ruby-identifier">times</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">index</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">player_card</span> = []
+    <span class="ruby-identifier">player_high_score</span> = <span class="ruby-value">0</span>
+    <span class="ruby-identifier">print</span> <span class="ruby-node">&quot;Player #{index + 1} : &quot;</span>
+    <span class="ruby-ivar">@card_per_player</span>.<span class="ruby-identifier">times</span> <span class="ruby-keyword">do</span>
+      <span class="ruby-identifier">draw_card</span> = <span class="ruby-ivar">@card</span>.<span class="ruby-identifier">is_taken_card</span>(<span class="ruby-identifier">taken_card</span>, <span class="ruby-identifier">player</span>)
+      <span class="ruby-identifier">player_card</span>.<span class="ruby-identifier">push</span>(<span class="ruby-identifier">draw_card</span>)
+      <span class="ruby-identifier">taken_card</span>.<span class="ruby-identifier">push</span>(<span class="ruby-identifier">player_card</span>)
+      <span class="ruby-keyword">if</span> <span class="ruby-identifier">player_high_score</span> <span class="ruby-operator">&lt;</span> <span class="ruby-identifier">draw_card</span>[<span class="ruby-value">:card_value</span>] <span class="ruby-comment"># to find the bigger card of a player</span>
+        <span class="ruby-identifier">player_high_score</span> = <span class="ruby-identifier">draw_card</span>[<span class="ruby-value">:card_value</span>]
+      <span class="ruby-keyword">end</span>
+      <span class="ruby-identifier">print</span> <span class="ruby-node">&quot;#{draw_card[:card]} of #{draw_card[:type]}, &quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">high_card</span> <span class="ruby-operator">&lt;</span> <span class="ruby-identifier">player_high_score</span> <span class="ruby-comment"># to store the player index having bigger card from all draw cards</span>
+      <span class="ruby-identifier">highest_card</span> = []
+      <span class="ruby-identifier">high_card</span> = <span class="ruby-identifier">player_high_score</span>
+      <span class="ruby-identifier">highest_card</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">index</span>
+    <span class="ruby-keyword">elsif</span> <span class="ruby-identifier">high_card</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">player_high_score</span> <span class="ruby-comment"># if 2 player have same bigger card from all draw cards</span>
+      <span class="ruby-identifier">highest_card</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">index</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;&quot;</span>
+    <span class="ruby-identifier">patterns_point</span> = <span class="ruby-identifier">check_patterns</span>(<span class="ruby-identifier">player_card</span>)
+    <span class="ruby-comment"># pattern_point[index] = check_patterns(player_card)</span>
+
+    <span class="ruby-identifier">scores</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">calculate_score</span>(<span class="ruby-identifier">patterns_point</span>, <span class="ruby-identifier">player_card</span>)
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">puts</span> <span class="ruby-identifier">select_winner</span>(<span class="ruby-identifier">scores</span>, <span class="ruby-identifier">highest_card</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-i-select_winner" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">select_winner</span><span
+            class="method-args">(scores, highest_card)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          <p>function to select a winner base on the total score</p>
+
+          <div class="method-source-code" id="select_winner-source">
+            <pre><span class="ruby-comment"># File task_1_card_game.rb, line 72</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">select_winner</span>(<span class="ruby-identifier">scores</span>, <span class="ruby-identifier">highest_card</span>)
+  <span class="ruby-identifier">greater_score</span> = <span class="ruby-value">0</span>
+
+  <span class="ruby-identifier">highest_card</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">index</span><span class="ruby-operator">|</span> <span class="ruby-comment"># to give 20 point to all player having bigger card from draw card</span>
+    <span class="ruby-identifier">scores</span>[<span class="ruby-identifier">index</span>] <span class="ruby-operator">+=</span> <span class="ruby-value">20</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">scores</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">score</span><span class="ruby-operator">|</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">score</span> <span class="ruby-operator">&gt;</span> <span class="ruby-identifier">greater_score</span>
+      <span class="ruby-identifier">greater_score</span> = <span class="ruby-identifier">score</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">p</span> <span class="ruby-identifier">scores</span>
+  <span class="ruby-string">&quot;Draw&quot;</span> <span class="ruby-keyword">if</span>(<span class="ruby-identifier">scores</span>.<span class="ruby-identifier">count</span>(<span class="ruby-identifier">greater_score</span>))
+  <span class="ruby-node">&quot;player #{scores.index(greater_score)+1} Won!&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+
+  </section>
+</main>
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="https://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="https://ruby.github.io/rdoc/">RDoc</a> 6.4.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+
